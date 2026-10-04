@@ -1,7 +1,0 @@
-dbt_project:
-  target: dev
-  outputs:
-    dev:
-      type: duckdb
-      path: "/home/vscode/airflow/dev.duckdb"
-      schema: main
